@@ -8,3 +8,6 @@ access_secret = 'DsilVsCxiHn93Rt6lh2lqbfSJoJ8XMygtJEqKpr9BGbQ5'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_secret)
+
+api= tweepy.API(auth)
+
